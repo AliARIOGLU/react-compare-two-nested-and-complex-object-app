@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textArea {
+  @apply bg-slate-400 resize-none outline-none rounded-md px-5 py-5 h-[250px] focus:ring-2 focus:ring-orange-400;
+}
